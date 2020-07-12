@@ -1,0 +1,125 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #0f0e17;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+a {
+  text-decoration: none;
+  text-align: left;
+}
+
+h1 {
+  font-size: 4vw;
+  font-weight: 900;
+  text-align: center;
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5vh;
+  margin-bottom: 2.5vh;
+}
+
+h3 {
+  line-height: 1;
+  font-size: 1.5vw;
+  color: #220503;
+}
+
+li {
+  color: #491109;
+  list-style-type: circle;
+}
+
+.space {
+  margin: 2vh;
+}
+
+h3:hover {
+  font-size: 1.7vw;
+  color: rgb(243, 59, 114);
+  transition: all 0.1s;
+}
+
+p {
+  color: #0f0e17;
+  font-size: 1.5vw;
+}
+
+em {
+  color: rgb(39, 39, 85);
+  text-decoration: line-through;
+}
+
+strong {
+  color: #c41a00;
+  font-weight: 900;
+  font-size: 1.8vw;
+  text-decoration: underline;
+}
+
+.javacode {
+  background-color: #220503;
+}
+
+/*collapsible button*/
+.collapsible {
+  font-size: 2.2vw;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  background-color: #f25f4c;
+  color: #fffffe;
+  cursor: pointer;
+  padding: 1.5vh;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #f3381f;
+}
+
+.collapsible:after {
+  content: "\002B";
+  color: white;
+  float: right;
+  margin-left: 5px;
+  margin-right: 1vw;
+}
+
+#javacodeList,
+#todaycodeList {
+  margin-top: 2vh;
+}
+
+.javacode {
+  background-color: hotpink;
+}
+
+.javacode:hover {
+  background-color: rgb(240, 32, 136);
+}
+
+.todaycode {
+  background-color: hotpink;
+}
+
+.todaycode:hover {
+  background-color: hotpink;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #ecdada;
+}
