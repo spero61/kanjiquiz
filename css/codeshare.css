@@ -1,6 +1,6 @@
 body {
   font-family: "Noto Sans KR", sans-serif;
-  background-color: #0f0e17;
+  background-color: #051827;
   margin-left: 10vw;
   margin-right: 10vw;
 }
@@ -77,8 +77,8 @@ strong {
   font-size: 2.2vw;
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 700;
-  background-color: #f25f4c;
-  color: #fffffe;
+  background-color: #155a6e;
+  color: aliceblue;
   cursor: pointer;
   padding: 1.5vh;
   width: 100%;
@@ -89,7 +89,7 @@ strong {
 
 .active,
 .collapsible:hover {
-  background-color: #f3381f;
+  background-color: #2a86a0;
 }
 
 .collapsible:after {
@@ -131,6 +131,40 @@ strong {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #ecdada;
+}
+
+/* sinoalice/sitto.html */
+
+.japanese {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.audioDescription {
+  font-size: 1vw;
+  color: #444444;
+}
+
+/* figure figcaption,
+figure audio {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+figure {
+  margin-top: 3vh;
+  margin-left: 1vw;
+}
+
+.textImage {
+  width: 30vw;
+  margin-bottom: 3vw;
+  margin-left: 0.2vw;
+}
+
+.voiceTitle {
+  margin-left: 1vw;
 }
 
 @media screen and (max-width: 858px) {
@@ -187,5 +221,29 @@ strong {
   .collapsible {
     font-size: 3.8vw;
     padding: 1.2vh;
+  }
+
+  /* sinoalice/sitto.html */
+
+  h1.japanese {
+    font-size: 4.5vw;
+  }
+  .japanese {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+
+  figure {
+    margin-top: 1.5vh;
+    margin-left: 0.1vw;
+  }
+
+  .textImage {
+    width: 34vw;
+    margin-bottom: 3vw;
+    margin-left: 0.1vw;
+  }
+
+  .voiceTitle {
+    margin-left: 0.1vw;
   }
 }
