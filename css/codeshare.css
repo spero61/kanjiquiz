@@ -165,7 +165,9 @@ td {
   width: 28vw;
   margin-bottom: 3vw;
   margin-left: 0.2vw;
+  filter: brightness(120%) contrast(150%) grayscale(100%);
 }
+
 
 .voiceTitle {
   margin-left: 1vw;
